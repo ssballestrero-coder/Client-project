@@ -439,28 +439,22 @@
       </div>
     </div>
 
-    <div>
-      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" id="contactForm">
-        <div class="form-row">
-          <input type="text" name="name" placeholder="Your Name" required />
-          <input type="email" name="email" placeholder="Email Address" required />
-        </div>
-        <input type="tel" name="phone" placeholder="Phone Number" />
-        <select name="service">
-          <option value="" disabled selected>Select a Service</option>
-          <option>Ceramic Coating</option>
-          <option>Paint Correction</option>
-          <option>Full Detail</option>
-          <option>Graphene Coating</option>
-          <option>Window Tinting</option>
-          <option>Maintenance Wash</option>
-          <option>Not sure – need advice</option>
-        </select>
-        <input type="text" name="vehicle" placeholder="Vehicle (Year, Make, Model)" />
-        <textarea name="message" placeholder="Any additional details or questions..."></textarea>
-        <button type="submit" class="btn">Send Request →</button>
-      </form>
-      <div class="success-msg" id="successMsg">✓ Message sent! We'll be in touch within 24 hours.</div>
+    <div style="display:flex; flex-direction:column; gap:1.5rem;">
+      <div style="background:var(--white); padding:2rem; border-left:4px solid var(--orange);">
+        <h3 style="font-family:'Bebas Neue',sans-serif; font-size:1.5rem; margin-bottom:1rem;">Call Us</h3>
+        <a href="tel:5550000000" style="font-size:1.8rem; font-weight:600; color:var(--orange); text-decoration:none;">(555) 000-0000</a>
+        <p style="color:var(--gray-text); margin-top:0.5rem; font-size:0.9rem;">Mon–Sat 8am–6pm</p>
+      </div>
+      <div style="background:var(--white); padding:2rem; border-left:4px solid var(--orange);">
+        <h3 style="font-family:'Bebas Neue',sans-serif; font-size:1.5rem; margin-bottom:1rem;">Email Us</h3>
+        <a href="mailto:gabrielern3@gmail.com" style="font-size:1.1rem; font-weight:600; color:var(--orange); text-decoration:none;">gabrielern3@gmail.com</a>
+        <p style="color:var(--gray-text); margin-top:0.5rem; font-size:0.9rem;">We reply within 24 hours</p>
+      </div>
+      <div style="background:var(--white); padding:2rem; border-left:4px solid var(--orange);">
+        <h3 style="font-family:'Bebas Neue',sans-serif; font-size:1.5rem; margin-bottom:1rem;">Visit Us</h3>
+        <p style="color:var(--gray-dark); font-weight:500;">1428 Industrial Blvd, Suite 4</p>
+        <p style="color:var(--gray-text); font-size:0.9rem;">Your City, ST 00000</p>
+      </div>
     </div>
   </div>
 </section>
